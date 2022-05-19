@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins' , sans-serif;
+}
+#banner{
+  background: linear-gradient(rgba(0,0,0,0.5),#fff),url(./pantai.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  
+}
+.banner-text{
+  padding-top: 180px;
+  text-align: center;
+  color: #fff;
+}
+
+.banner-text h1{
+  font-size: 130px;
+  font-family: 'kaushan script', cursive;
+
+}
+
+.banner-text p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.banner-btn{
+  margin: 70px auto;
+}
+
+.banner-btn a{
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  color:#fff;
+  border: .5px solid #fff;
+  border-radius: 50px;
+}
+
+.banner-btn :hover{
+  background: #fff;
+  color: #000;
+}
