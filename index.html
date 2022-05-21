@@ -12,9 +12,8 @@
   <div class="banner-text">
     <h1>PANTAI WISATA</h1>
     <p>Ayo Cari Pantai Terbaikmu</p>
-    <div class="banner-btn">
-      <a href="#">Login</a>
-      <a href="#">Daftar</a>
+     <div class="banner-btn">
+        <a href="https://www.pornhub.com/video/search?search=beach">Explore</a>
     </div>
   </div>
   </section>
@@ -23,13 +22,29 @@
       <ul>
         <li> <a href="#">Home</a></li>
         <li> <a href="#">About</a></li>
-        <li> <a href="#">Contact</a></li>
+        <li> <a href="https://bit.ly/3lBmQy1">Contact</a></li>
       </ul>
     </nav>
   </div>
-  
 
+     <div id="menubtn">
+     <img src="./menu.png" id="menu">
+     </div>
 
+<script>
+  var menubtn = document.getElementById("menubtn")
+  var sidenav = document.getElementById("sidenav")
+  var menu = document.getElementById("menu")
+
+  menubtn.onclick = function (){
+    if(sidenav.style.right == "-250px"){
+      sidenav.style.right ="0";
+    }
+else{
+  sidenav.style.right = "-250px";
+}
+  }
+</script>
   
   
 </body>
