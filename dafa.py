@@ -109,7 +109,7 @@ def tanya():
     tanya = input('kembali ke menu utama..? (y/n) : ')
     if tanya == 'y' or 'Y':
         main_menu()
-    elif tanya == 'n':
+    elif tanya == 'n'or 'N':
         exit()
     else:
         print('input salah')
